@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script href="ali.js">
+          document.addEventListener('DOMContentLoaded', function(){
+
+            
+            let button = document.querySelector('#button');
+            let body = document.querySelector('#body');
+            let butt = document.querySelector('#butt')
+            document.querySelector('#button').addEventListener('click', function(){
+              body.style.backgroundColor = '#de99cc';
+            });
+            document.querySelector('#butt').addEventListener('click', function(){
+              body.style.backgroundColor = '#EFFAFD';
+            })
+          });
+        </script>
+    </head>
+    <body id="body">
+      <div class="continar">
+        <div class="dev-header">
+          <header class="main-header">
+              <h1 class="h1">
+                  CS50 Homepage Project
+              </h1>
+              <nav>
+                  <a href="#" class="links">
+                      Home
+                  </a>
+                  <a href="hobbies.html" class="links">
+                          Hobbies
+                  </a>
+                  <a href="MyFriends.html " class="links">
+                          My Friends
+                  </a>
+                  <a href="content.html" class="links">
+                          Contact Me
+                  </a>
+              </nav>
+              
+          </header>
+        </div>
+        <article>
+            <header>
+                <h2>
+
+                </h2>
+                <img src="ali.jfif" width="750" height="350">
+            </header>
+            <p>
+              Hello everyone, My name is Ali and this is my eighth project in CS50.
+              I am happy that I have completed the course so far,
+              and soon I will finish my final project in CS50. &#128512;
+            </p>
+            <h2>
+              Who's Ali?
+            </h2>
+            <p>
+              I was born in Egypt in one of the rural governorates and moved to the capital when I was 9 years old.
+              I loved computers since I was little.
+              I always used to go to play games on coffee net.
+              I used to run away from school when I was young and go to coffee net.
+              I got to know programming from CS50, and I liked it more.
+              This is a little bit about me
+            </p>
+            <p>
+              Dont click this button
+              <button class="button" id="button">
+                ❤️
+              </button>
+              <button id="butt">
+                🙃
+              </button>
+            </p>
+            
+        </article>
+            <footer>
+               Copyright &#169; By CS50
+            </footer>
+      </div>
+
+    </body>
+</html>

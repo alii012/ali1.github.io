@@ -1,0 +1,203 @@
+*{
+  box-sizing: border-box;
+}
+
+.continar{
+  width: 800px;
+  margin: auto;
+  padding: auto;
+}
+body{
+  font-family: sans-serif;
+  color: #444;
+  background-color: #EFFAFD;
+
+}
+
+.main-header{
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+  
+article{
+  border-radius: 5px;
+}
+
+.h1 {
+  
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  color: #333;
+  text-shadow: 2px 2px #ddd;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav{
+  text-align: center;
+}
+
+.links:link,:visited{
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+
+  text-decoration: none;
+  background-color: #99cccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.4s ease-in-out;
+  
+}
+.links:hover{
+  background-color: #859cc5;
+}
+
+
+
+.contact-page{
+  display: flex;
+
+}
+
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-left{
+  flex-basis: 40%;
+  padding: 40px;
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.input-groub {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-groub label {
+  margin-bottom: 5px;
+  width: calc(50% - 10px);
+}
+
+.input-groub input {
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+
+
+input{
+  border: none ;
+  border-bottom: 1px solid black !important;
+  outline: none;
+  width:  200px ;
+  border-radius: 5%;
+}
+
+
+input::placeholder {
+  opacity: 0.5;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 200px ;
+  box-sizing: border-box;
+}
+
+.contact-right{
+  margin-left: 30px;
+}
+
+
+label{
+  color: #18b7ff;
+}
+
+.msg{
+  border: 1px solid black;
+}
+
+
+
+
+.msg  textarea{
+    height: 150px;
+    resize: none;
+}
+  
+
+.input-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.input-2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.msg {
+  width: 400px !important;
+  height: 200px;
+}
+
+.a{
+  margin-bottom: 10px;
+}
+
+input.msg {
+  vertical-align: text-top;
+}
+
+button{
+  height: auto;
+  padding: 20px;  
+  margin-top: 10px;
+  margin-left: 270px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #8976f8;
+  cursor: pointer;
+}
+
+button {
+  margin: 200 20;
+  
+}

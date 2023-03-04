@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="content.css" rel="stylesheet"> 
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        document.querySelector('button').addEventListener('click', function(event){
+          let name = document.querySelector('#name').value;
+          alert('Thanks For Your Message, ' + name);
+          event.preventDefault();
+        });
+      });
+    </script>
+    
+  </head>
+  <body>
+    <div class="continar">
+      <header class="main-header">
+        <h1 class="h1">CS50 Homepage Project</h1>
+        <nav>
+          <a href="index.html" class="links">Home</a>
+          <a href="hobbies.html" class="links">Hobbies</a>
+          <a href="MyFriends.html" class="links">My Friends</a>
+          <a href="content.html" class="links">Contact Me</a>
+        </nav>  
+      </header>
+      <article>
+        <div class="contact-page">
+          <div class="contact-right">
+
+          </div>
+          <div class="contact-left">
+            <form method="get">
+              <div class="input-row">
+                <div class="input-groub">
+                  <label>First Name</label>
+                  <input type="text" placeholder="Ali" id="name">
+                </div>
+                <div class="input-groub contact-right">
+                  <label>Last Name</label>
+                  <input type="text" placeholder="Mohamed">
+                </div>
+              </div>
+              <div class="input-row input">
+                <div class="input-groub">
+                  <label> Email</label>
+                  <input type="email" placeholder="malan@harvard.edu">
+                </div>
+                <div class="input-groub contact-right">
+                  <label> Phone</label>
+                  <input type="text" placeholder="1 (800) 259-9107">
+                </div>
+              </div>
+              <div class="input-1">
+                <div class="input-2" id="id">
+                  <label class="a"> Massage</label>
+                  <input type="text" placeholder="" class="msg"> 
+                </div>
+              </div>
+              <button type="submit">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+        
+      </article>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+

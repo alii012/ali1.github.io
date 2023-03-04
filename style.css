@@ -1,0 +1,92 @@
+
+.continar{
+  width: 800px;
+  margin: auto;
+  padding: auto;
+}
+body{
+  font-family: sans-serif;
+  color: #444;
+  background-color: #EFFAFD;
+  background-color: #d99cc;
+
+}
+
+.main-header{
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+  
+article{
+  border-radius: 5px;
+}
+
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+h1, h2 , h3{
+  color: #1098ad;
+}
+.h1 {
+  
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  color: #333;
+  text-shadow: 2px 2px #ddd;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav{
+  text-align: center;
+}
+
+.links:link,:visited{
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+
+  text-decoration: none;
+  background-color: #99cccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.4s ease-in-out;
+
+}
+.links:hover{
+  background-color: #859cc5;
+}
+.button {
+  background-color: #ff5e5e;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+footer{
+  margin-top: 60px;
+}
+
+#butt{
+  float: right;
+  height: auto;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(219, 198, 2);
+  border: none;
+}

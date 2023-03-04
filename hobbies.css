@@ -1,0 +1,254 @@
+*{
+  box-sizing: border-box;
+}
+
+.continar{
+  width: 800px;
+  margin: auto;
+  padding: auto;
+}
+body{
+  font-family: sans-serif;
+  color: #444;
+  background-color: #EFFAFD;
+
+}
+
+.main-header{
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+  
+article{
+  border-radius: 5px;
+}
+
+.h1 {
+  
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  color: #333;
+  text-shadow: 2px 2px #ddd;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav{
+  text-align: center;
+}
+
+.links:link,:visited{
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+
+  text-decoration: none;
+  background-color: #99cccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.4s ease-in-out;
+  
+}
+.links:hover{
+  background-color: #859cc5 !important;
+  color: #ddd !important;
+}
+
+
+h2 {
+  font-size: 30px; 
+
+  font-family: "Audiowide";
+
+}
+
+li{
+  list-style: none;
+}
+
+.img{
+  width: 200px;
+  height: 130px;
+  border-radius: 10%;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.img-2{
+  width: 200px;
+  height: 130px;
+  border-radius: 10%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+
+.dev-1, .dev-2{
+  flex: 50%;
+}
+div{
+  display: block;
+}
+
+.dev{
+  display: flex;
+}
+
+
+.img-2 {
+  float: right;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  
+}
+.dev-2 {
+  overflow: hidden;
+}
+
+
+.dev-2 ul li {
+  display: flex;
+  align-items: center;
+}
+
+.dev-2 ul li .img-2 {
+  margin-right: 1em;
+}
+
+.dev-2 ul li span {
+  margin-right: auto;
+}
+
+#dif{
+  margin-left: 65px !important; 
+}
+
+.img-2{
+  margin-left: 20px;
+}
+
+.dev-2{
+  text-align: right;
+}
+
+
+
+.p2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+h3{
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: inline;
+  margin-left: 200px;
+  font-size: 20px;
+  
+}
+
+
+form {
+  text-align: center;
+  margin-top: 25px;
+}
+
+form select{
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+
+form button{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* Add background color to submit button */
+button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Add hover effect to submit button */
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Add background color to options */
+select option {
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Add hover effect to options */
+select option:hover {
+  background-color: #f2f2f2;
+}
+select, option {
+  background-color: #1396c2;
+  color: white;
+}
+
+button[type=submit] {
+  background-color: #1396c2;
+  color: white;
+}
+
+/* Style the hover state of the button */
+button[type=submit]:hover {
+  background-color: #005C7A;
+  
+}
+#myp{
+  text-align: center;
+  background-color: Green;
+
+  
+}
+p {
+  display: inlin-block;
+  
+}
+.button {
+  width: 40px;
+  
+}
+p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 10px;
+  font-size: 20px;  
+  font-weight: bold;
+  padding: auto;
+  
+}
+
+

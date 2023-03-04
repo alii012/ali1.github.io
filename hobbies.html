@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="hobbies.css" rel="stylesheet"> 
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  let select = document.getElementById('MySelect');
+  let button = document.querySelector('#button');
+  let myp = document.querySelector('#myp');
+  
+  button.addEventListener('click', function(e){
+    e.preventDefault(); // prevent form from submitting
+    let selectedOption = select.options[select.selectedIndex].value;
+    if (selectedOption === "Coding") {
+      myp.innerText = "Correct";
+      myp.classList.remove('incorrect');
+      myp.classList.add('correct');
+      myp.style.maxWidth = '100px';
+      myp.style.backgroundColor = 'green';
+      myp.style.padding = '15px';
+      myp.style.borderRadius = '5px';
+    } else {
+      myp.innerHTML = "Sorry, that's not my daily hobby. Keep guessing!";
+      myp.classList.remove('correct');
+      myp.classList.add('incorrect');
+      myp.style.maxWidth = '425px';
+      myp.style.backgroundColor = 'rgba(255, 50, 50, 0.856)';
+
+    }
+  });
+});
+
+            
+    </script>
+  </head>
+  <body id="body">
+    <div class="continar">
+      <header class="main-header">
+        <h1 class="h1">CS50 Homepage Project</h1>
+        <nav>
+          <a href="index.html" class="links">Home</a>
+          <a href="#" class="links">Hobbies</a>
+          <a href="MyFriends.html" class="links">My Friends</a>
+          <a href="content.html" class="links">Contact Me</a>
+        </nav>  
+      </header>
+      <article>
+        <section>
+          <h2>My Hobbies:</h2>
+          <div class="dev">
+            <div class="dev-1">        
+              <ul>
+                <li>
+                  <img src="coding.jpg" alt="coding" class="img">
+                  <span>Coding</span>
+                </li>
+                <li>
+                  <img src="lol.jpg" alt="League of Legends" class="img">
+                  <span>Playing games</span>
+                </li>
+              </ul>
+            </div>
+            <div class="dev-2">
+              <ul>
+                <li>
+                  <span class="rain">Reading Books</span>
+                  <img src="book.jpg" alt="books" class="img-2">
+                </li>
+                <li>
+                  <p class="p2">Make Tea</p>
+                  <img src="tea.webp" alt="tea" class="img-2" id="dif">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h3>Try to guess which of the above I do every day!</h3>
+          
+        </section>
+        <section>
+          <form>
+            <select id="MySelect">
+              <option value="option1">
+                Playing games
+              </option>
+              <option>
+                Coding
+              </option>
+              <option>
+                Make Tea
+              </option>
+              <option>
+                Reading Books
+              </option>
+            </select>
+            <button type="submit" id="button">
+              Submit
+            </button>
+          </form>  
+          <p id="myp">
+
+          </p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
+
+
+
+  
